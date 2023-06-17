@@ -1,0 +1,141 @@
+#baslık{
+    text-align: center;
+    position: relative;
+    right: -15%;
+    margin-bottom: 8%
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 80%;
+    
+  }
+.product{
+    margin: 55px;
+    text-decoration: underline;
+}
+
+  body{
+    margin: 0;
+}   
+
+.material-icons{
+    font-size: 38px;
+}
+  .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    margin-bottom: 5%;
+    background-color: rgb(61, 60, 60);
+    border: 1px solid #000000;
+    border-radius: 1%;
+    text-align: center;
+    
+    }
+
+ .tür{
+     font-size: 40px;
+ }
+.text-warning{
+    font-size: 20px;
+}
+ .menu a:hover{
+    background-color:red;
+}
+ .altmenu  {
+     display: none;
+     z-index: 1;
+     position: absolute;
+     
+     background-color: rgb(192, 112, 7);
+     margin-top: 40px;
+     padding: 15px 8px;
+     box-shadow: 0 8px 16px 0 rgb(0, 0, 0, 0, 7);
+     font-size: 18px;
+    font-family: 'Times New Roman';
+    text-decoration: none;
+    border-radius: 2%;
+    
+ }
+ .newmenu:hover .altmenu{
+    display: block;
+    
+}
+ .newmenu .altmenu:hover{
+    background-color: rgb(130, 139, 0);
+}
+.altmenu a:hover{
+    background-color: rgb(0, 139, 42);
+}
+.card .card-body:hover{
+    background-color: rgb(10, 149, 241);
+}
+ div a{
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    text-decoration: none;
+    color: rgb(14, 0, 0);
+    
+    margin: 0px;
+    padding: 3px;
+    width: -70%;
+}
+.newmenu{
+    
+    
+    
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    text-decoration: none;
+    color: rgb(8, 1, 1);
+    border: 1px;
+    margin: -28px;
+    margin-top: 0.3px;
+    text-align: left;
+    
+    
+    padding: 0px px;
+
+    
+}
+
+
+
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: black;
+    padding: 14px 136px;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    text-decoration: none;
+    
+}
+
+li a.home {
+    background-color: #ce4610;
+    color: ghostwhite;
+}
+
+div a:hover{
+    background-color: rgb(192, 112, 7);
+    color: ghostwhite;
+}
+
+li a:hover:not(.home .newmenu-link){
+    background-color: rgb(192, 112, 7);
+    color: ghostwhite;
+}
+li{
+    border-bottom: 1px solid #000000;
+    
+}
+.card{
+    margin:55px;
+}
+
+
